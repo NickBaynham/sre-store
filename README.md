@@ -1,2 +1,2 @@
-# sre-store
-Watchlist - Store microservice
+# movies-store
+Movies Store
