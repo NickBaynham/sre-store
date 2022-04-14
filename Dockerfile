@@ -6,6 +6,7 @@ COPY package-lock.json package.json .
 
 RUN npm i --only=prod
 
-COPY index.js dao.js ./
+COPY index.js ./
+COPY dao.js ./
 
 CMD npm start
