@@ -10,5 +10,5 @@ docker run --rm -v $PWD/coverage:/app/coverage marketplace npm run lint
 
 ## Troubleshooting
 ```
-docker run --rm -v $PWD/coverage:/app/coverage marketplace npm run test
+docker container run -it store /bin/bash
 ```
