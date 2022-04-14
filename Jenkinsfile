@@ -21,7 +21,7 @@ node('workers'){
                     allowMissing: false,
                     alwaysLinkToLastBuild: false,
                     keepAll: true,
-                    reportDir: "$PWD/coverage",
+                    reportDir: "**/coverage",
                     reportFiles: "index.html",
                     reportName: "Coverage Report"
                 ])
