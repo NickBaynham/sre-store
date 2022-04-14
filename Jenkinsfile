@@ -10,7 +10,7 @@ node('workers'){
     stage('Tests'){
         parallel(
             'Quality Tests': {
-                sh "docker run --rm ${imageName}-test npm run lint"
+                sh "docker run --rm ${imageName}-test npm run test"
             },
             'Integration Tests': {
                 sh "docker run --rm ${imageName}-test npm run test"
